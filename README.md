@@ -28,7 +28,7 @@ B. **Pattern-based Sarcasm Detection:** Pattern-based detection depends on recog
 
 This project focuses on comparison between different AI-models that can be used to detect the twitter sarcastic text..We have compared all the models including ADASYN,LSTM and Bagging Random Forest.
 
-
+**Model Selection**
 
 1. **ADASYN (Adaptive Synthetic Sampling):**
    - **Description:** ADASYN is an oversampling technique used to balance imbalanced datasets. In the context of sarcasm detection, it might be applied to address the class imbalance issue if sarcastic and non-sarcastic tweets are not evenly distributed.
@@ -36,13 +36,13 @@ This project focuses on comparison between different AI-models that can be used 
 
 ![Sarcasm-Detection](Images/4.png)
 
-2. **LSTM (Long Short-Term Memory):**
-   - **Description:** LSTM is a type of recurrent neural network (RNN) that is well-suited for sequence modeling. It can capture long-range dependencies in data, making it effective for analyzing the sequential nature of text, such as tweets.
-   - **Application:** LSTM can be trained on sequences of words in tweets to learn contextual information and identify patterns associated with sarcasm.
+2. **LSTM (Long Short-Term Memory):** Long Short Term Memory (LSTM) model is a neural network architecture. Renowned for its sequence-to-sequence capabilities and contextual understanding, LSTM incorporates a Transformer layer to grasp the nuances of language patterns. This model excels in capturing long-range dependencies within textual data, vital in the context of sarcasm detection. With its attention mechanisms and memory retention, Transformer LSTM promises to unearth the subtle linguistic cues that underpin sarcastic expressions within the Twitter dataset.
 
-3. **Bagging Random Forest:**
-   - **Description:** Random Forest is an ensemble learning method that combines multiple decision trees to make predictions. Bagging (Bootstrap Aggregating) is a technique where multiple models are trained on different subsets of the training data.
-   - **Application:** In the context of sarcasm detection, a Bagging Random Forest can be applied by training multiple decision trees on different subsets of sarcastic and non-sarcastic tweets, and then aggregating their predictions.
+
+3.**Bagging Model- Ensemble Random Forest :** Bagging, embodied by the Random Forest model, thrives on the principle ofensemble learning. It assembles an array of decision tree classifiers, each trained on a random subset of the dataset.Combining the predictions of these diverse trees, it creates a resilient ensemble model. Random Forest excels in capturing complex relationships within data, making it a suitable candidate for the intricate task of sarcasm detection. Its ensemble nature mitigates overfitting and enhances robustness, demonstrating a holistic understanding of language nuances.
+
+
+4.**Boosting Model:** XGBoost, a quintessential boosting algorithm, amplifies the predictive prowess of weak learners into a formidable model. By sequentially training a series of decision trees, it emphasizes the misclassified data points from preceding trees, progressively refining its predictive accuracy. XGBoost's adaptability and ability to handle complex, non-linear relationships are assets that shine in the intricate landscape of sarcasm detection. Its capability to handle imbalanced datasets, coupled with a commitment to precision, renders it a potent tool in our analytical arsenal.
 
 **Elaboration of Comparison:**
 
