@@ -64,6 +64,7 @@ the minority class to rectify this imbalance.
 3. **Feature Representation:**
    -Feature extraction is a fundamental step in preparing textual data for machine learning. In this research, the textual content of Twitter expressions underwent Term Frequency-Inverse Document Frequency (TF-IDF) vectorization. TF-IDF is a widely used technique that quantifies the significance of words and phrases within text documents. In this context, the TF-IDF vectorizer was configured to consider a maximum of 5,000 features while excluding common English stop words and considering word combinations up to bi-grams (n-grams with a range of 1 to 2). This transformation rendered the textual data into a numerical format that could be processed by machine learning models. TF-IDF encapsulated the essence of the expressions, empowering subsequent analyses with rich and informative features extracted from the text.
 
+![Sarcasm-Detection](Images/8.png)
 
 4. **Training Time and Resource Requirements:**
    - Compare the computational resources and training times required for each model. LSTM, being a deep learning model, may demand more resources compared to ensemble methods like Bagging Random Forest.
