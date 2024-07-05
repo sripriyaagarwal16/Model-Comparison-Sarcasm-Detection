@@ -34,6 +34,8 @@ This project focuses on comparison between different AI-models that can be used 
    - **Description:** ADASYN is an oversampling technique used to balance imbalanced datasets. In the context of sarcasm detection, it might be applied to address the class imbalance issue if sarcastic and non-sarcastic tweets are not evenly distributed.
    - **Application:** ADASYN can be used to generate synthetic examples of the minority class (sarcastic tweets) to improve the model's ability to detect sarcasm in an imbalanced dataset.
 
+![Sarcasm-Detection](Images/4.png)
+
 2. **LSTM (Long Short-Term Memory):**
    - **Description:** LSTM is a type of recurrent neural network (RNN) that is well-suited for sequence modeling. It can capture long-range dependencies in data, making it effective for analyzing the sequential nature of text, such as tweets.
    - **Application:** LSTM can be trained on sequences of words in tweets to learn contextual information and identify patterns associated with sarcasm.
