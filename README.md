@@ -3,7 +3,7 @@ The two main types of sarcasm detection are:
 A. Sentiment-based Sarcasm Detection: This approach focuses on analyzing a text's sentiment or emotional tone to detect sarcasm and is often called "Sentiment-based Sarcasm Detection." It looks for variances between the expressed sentiment and the text's meaning. For example, if a statement appears positive in sentiment but is meant sarcastically, the model would identify it as sarcasm.
 
 B. Pattern-based Sarcasm Detection: Pattern-based detection depends on recognizing particular language cues, patterns, or features commonly associated with sarcasm. This approach doesn't necessarily focus on sentiment while searching for distinctive word combinations, negation, or incongruity between words and context to flag potential sarcasm.
-![Sarcasm-Detection](images/1.png)
+![Sarcasm-Detection](Images/1.png)
 
 
 This project focuses on comparison between different AI-models that can be used to detect the twitter sarcastic text..We have compared all the models including ADASYN,LSTM and Bagging Random Forest.
