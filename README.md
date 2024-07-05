@@ -87,4 +87,4 @@ the minority class to rectify this imbalance.
 7. **Scalability:**
    - Assess the scalability of the models, especially if you plan to deploy the sarcasm detection system on a larger scale. Consider factors such as ease of deployment and real-time processing.
 
-Colab File:https://colab.research.google.com/drive/1Jnhfh0c6A9E9gr5cnXBlBnVWYs-cALb3?usp=sharing
+
