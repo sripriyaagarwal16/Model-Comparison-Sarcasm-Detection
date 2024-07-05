@@ -79,6 +79,8 @@ the minority class to rectify this imbalance.
 
 ![Sarcasm-Detection](Images/11.png)
 
+![Sarcasm-Detection](Images/12.png)
+
 6. **Interpretability:**
    - Consider the interpretability of the models. Bagging Random Forest, being an ensemble of decision trees, might provide insights into feature importance, while LSTM's inner workings may be less interpretable.
 
