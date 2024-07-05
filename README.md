@@ -50,6 +50,8 @@ This project focuses on comparison between different AI-models that can be used 
 2. **Handling Imbalanced Data:**
    - Analyze how each model deals with the imbalanced nature of sarcasm detection on Twitter. ADASYN explicitly addresses this issue by oversampling the minority class, while LSTM and Bagging Random Forest might require additional techniques or modifications to handle imbalanced datasets.
 
+     ![Sarcasm-Detection](Images/3.png)
+
 3. **Feature Representation:**
    - Explore how each model represents features from the text data. LSTM naturally captures sequential dependencies, while Bagging Random Forest may rely on bag-of-words or other text representation techniques.
 
