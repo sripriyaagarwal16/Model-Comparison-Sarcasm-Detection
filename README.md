@@ -6,6 +6,23 @@ A. **Sentiment-based Sarcasm Detection:** This approach focuses on analyzing a t
 B. **Pattern-based Sarcasm Detection:** Pattern-based detection depends on recognizing particular language cues, patterns, or features commonly associated with sarcasm. This approach doesn't necessarily focus on sentiment while searching for distinctive word combinations, negation, or incongruity between words and context to flag potential sarcasm.
 ![Sarcasm-Detection](Images/1.png)
 
+**Types of Sarcasm Detection**
+
+**Sentiment-Based Detection:** Visualize sentiment analysis icons (positive, negative, neutral) with arrows pointing to a sarcastic comment.Pattern-Based Detection: Show linguistic patterns (question marks, negations, irony symbols) leading to identification of sarcasm.
+
+**Impact of Sarcasm**
+
+**Emotional Impact**: Visualize emoticons or facial expressions showing confusion or misunderstanding caused by sarcasm.Communication Breakdown: Arrows depicting misinterpretation or confusion in communication due to sarcasm.Challenges in Sarcasm Detection
+
+**Challenges in Sarcasm Detection**
+
+**Ambiguity:** Illustrate ambiguous statements with dual-meaning arrows (literal vs. intended meaning).Cultural Variations: Flags or globe icons showing different cultural contexts impacting sarcasm interpretation.Ethical Considerations
+
+**Bias and Fairness:** Scales or balance icons representing fairness in sarcasm detection across different demographics.
+
+**Privacy:** Lock icons or silhouettes representing privacy concerns in analyzing sarcastic social media posts.
+
+
 
 This project focuses on comparison between different AI-models that can be used to detect the twitter sarcastic text..We have compared all the models including ADASYN,LSTM and Bagging Random Forest.
 
