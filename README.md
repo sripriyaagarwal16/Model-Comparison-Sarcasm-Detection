@@ -37,6 +37,8 @@ This project focuses on comparison between different AI-models that can be used 
 ![Sarcasm-Detection](Images/4.png)
 
 2. **LSTM (Long Short-Term Memory):** Long Short Term Memory (LSTM) model is a neural network architecture. Renowned for its sequence-to-sequence capabilities and contextual understanding, LSTM incorporates a Transformer layer to grasp the nuances of language patterns. This model excels in capturing long-range dependencies within textual data, vital in the context of sarcasm detection. With its attention mechanisms and memory retention, Transformer LSTM promises to unearth the subtle linguistic cues that underpin sarcastic expressions within the Twitter dataset.
+3. 
+![Sarcasm-Detection](Images/7.png)
 
 
 3.**Bagging Model- Ensemble Random Forest :** Bagging, embodied by the Random Forest model, thrives on the principle ofensemble learning. It assembles an array of decision tree classifiers, each trained on a random subset of the dataset.Combining the predictions of these diverse trees, it creates a resilient ensemble model. Random Forest excels in capturing complex relationships within data, making it a suitable candidate for the intricate task of sarcasm detection. Its ensemble nature mitigates overfitting and enhances robustness, demonstrating a holistic understanding of language nuances.
