@@ -44,16 +44,19 @@ This project focuses on comparison between different AI-models that can be used 
 
 **Elaboration of Comparison:**
 
-1. **Data Preprocessing:**
-   - Consider how each model handles preprocessing tasks such as tokenization, stemming, or lemmatization to prepare the text data for analysis.
-
+1. **Dataset Description :**
+   - Twitter, as a prolific source of real-time, user-generated content, stands as an invaluable resource for showcasing the real-world impact of sarcasm detection models. In the era of digital communication, Twitter stands as a lively representation of a diverse range of feelings, perspectives, and interactions. Its concise format and instant nature symbolize the rapid dissemination of information., making it an impactful platform to illustrate the real-world implications of accurate sarcasm detection. By analyzing Twitter data, this study not only pushes the boundaries of natural language processing but also highlights its importance in maneuvering the complexities of contemporary digital discussions.. For this research, we utilized a Kaggle dataset, which featured 4,500 entries, including 3,500 non-sarcastic and 1,000 sarcastic expressions. The dataset's source, Kaggle, is celebrated for its repository of diverse datasets and data-driven challenges. The data consists of integral labels, 0(non-sarcastic) and 1(sarcastic).
+   - 
 2. **Handling Imbalanced Data:**
-   - Analyze how each model deals with the imbalanced nature of sarcasm detection on Twitter. ADASYN explicitly addresses this issue by oversampling the minority class, while LSTM and Bagging Random Forest might require additional techniques or modifications to handle imbalanced datasets.
+   - In the quest for diverse and comprehensive data., we've utilized the Adaptive Synthetic Sampling (ADASYN) technique. This resampling approach, a vital element of data preparation, serves as a key factor in addressing the issue of class imbalance. In this research, we observed a noticeable class imbalance, with a significant majority of non-sarcastic expressions compared to the fewer instances of sarcastic ones. ADASYN is specifically designed to dynamically generate synthetic data points within
+the minority class to rectify this imbalance.
+
 
      ![Sarcasm-Detection](Images/3.png)
 
 3. **Feature Representation:**
-   - Explore how each model represents features from the text data. LSTM naturally captures sequential dependencies, while Bagging Random Forest may rely on bag-of-words or other text representation techniques.
+   -Feature extraction is a fundamental step in preparing textual data for machine learning. In this research, the textual content of Twitter expressions underwent Term Frequency-Inverse Document Frequency (TF-IDF) vectorization. TF-IDF is a widely used technique that quantifies the significance of words and phrases within text documents. In this context, the TF-IDF vectorizer was configured to consider a maximum of 5,000 features while excluding common English stop words and considering word combinations up to bi-grams (n-grams with a range of 1 to 2). This transformation rendered the textual data into a numerical format that could be processed by machine learning models. TF-IDF encapsulated the essence of the expressions, empowering subsequent analyses with rich and informative features extracted from the text.
+
 
 4. **Training Time and Resource Requirements:**
    - Compare the computational resources and training times required for each model. LSTM, being a deep learning model, may demand more resources compared to ensemble methods like Bagging Random Forest.
