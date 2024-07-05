@@ -22,6 +22,8 @@ B. **Pattern-based Sarcasm Detection:** Pattern-based detection depends on recog
 
 **Privacy:** Lock icons or silhouettes representing privacy concerns in analyzing sarcastic social media posts.
 
+![Sarcasm-Detection](Images/2.png)
+
 
 
 This project focuses on comparison between different AI-models that can be used to detect the twitter sarcastic text..We have compared all the models including ADASYN,LSTM and Bagging Random Forest.
