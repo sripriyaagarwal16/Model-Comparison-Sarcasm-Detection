@@ -41,8 +41,11 @@ This project focuses on comparison between different AI-models that can be used 
 
 3.**Bagging Model- Ensemble Random Forest :** Bagging, embodied by the Random Forest model, thrives on the principle ofensemble learning. It assembles an array of decision tree classifiers, each trained on a random subset of the dataset.Combining the predictions of these diverse trees, it creates a resilient ensemble model. Random Forest excels in capturing complex relationships within data, making it a suitable candidate for the intricate task of sarcasm detection. Its ensemble nature mitigates overfitting and enhances robustness, demonstrating a holistic understanding of language nuances.
 
+![Sarcasm-Detection](Images/5.png)
 
 4.**Boosting Model:** XGBoost, a quintessential boosting algorithm, amplifies the predictive prowess of weak learners into a formidable model. By sequentially training a series of decision trees, it emphasizes the misclassified data points from preceding trees, progressively refining its predictive accuracy. XGBoost's adaptability and ability to handle complex, non-linear relationships are assets that shine in the intricate landscape of sarcasm detection. Its capability to handle imbalanced datasets, coupled with a commitment to precision, renders it a potent tool in our analytical arsenal.
+
+![Sarcasm-Detection](Images/6.png)
 
 **Elaboration of Comparison:**
 
