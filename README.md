@@ -70,7 +70,10 @@ the minority class to rectify this imbalance.
    - Compare the computational resources and training times required for each model. LSTM, being a deep learning model, may demand more resources compared to ensemble methods like Bagging Random Forest.
 
 5. **Model Performance:**
-   - Evaluate the performance of each model in terms of accuracy, precision, recall, F1 score, and any other relevant metrics. Consider using cross-validation to obtain a robust estimate of the models' performance.
+   - Evaluated the performance of each model in terms of accuracy, precision, recall, F1 score, and any other relevant metrics. Consider using cross-validation to obtain a robust estimate of the models' performance.
+
+ ![Sarcasm-Detection](Images/9.png)
+
 
 6. **Interpretability:**
    - Consider the interpretability of the models. Bagging Random Forest, being an ensemble of decision trees, might provide insights into feature importance, while LSTM's inner workings may be less interpretable.
